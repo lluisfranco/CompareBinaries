@@ -44,7 +44,7 @@ namespace CompareBinaries
                     r.SizeDifference,
                     r.VersionDifferent
                 }).ToList();
-                labelResults.Text = $"{results.Count} differences.";
+                labelResults.Text = $"{results.Count} version differences.";
             };
         }
     }
