@@ -23,6 +23,8 @@ namespace CompareBinaries
             };
             button3.Click += (s, e) =>
             {
+                Cursor = Cursors.WaitCursor;
+                button3.Enabled = false;
                 var folder1 = textBox1.Text;
                 var folder2 = textBox2.Text;
                 if (string.IsNullOrWhiteSpace(folder1) || string.IsNullOrWhiteSpace(folder2))
@@ -45,6 +47,8 @@ namespace CompareBinaries
                     r.VersionDifferent
                 }).ToList();
                 labelResults.Text = $"{results.Count} version differences.";
+                button3.Enabled = true;
+                Cursor = Cursors.Default;
             };
         }
     }
