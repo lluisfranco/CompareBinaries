@@ -88,7 +88,7 @@
             textBox2.ReadOnly = true;
             textBox2.Size = new Size(714, 23);
             textBox2.TabIndex = 3;
-            textBox2.Text = "C:\\FalconFT\\FalconAppCode\\FalconCell.Client\\bin\\Release\\net8.0-windows\\publish\\win-x64";
+            textBox2.Text = "C:\\FalconFT\\FalconAppCode\\FalconConsolidations.ClientApp\\bin\\Release\\net8.0-windows\\publish\\win-x64";
             // 
             // button3
             // 
@@ -108,7 +108,6 @@
             dataGridView.DataSource = fileComparisonResultBindingSource;
             dataGridView.Location = new Point(12, 123);
             dataGridView.Name = "dataGridView";
-            dataGridView.ReadOnly = true;
             dataGridView.Size = new Size(795, 321);
             dataGridView.TabIndex = 6;
             // 
@@ -117,7 +116,6 @@
             fileNameDataGridViewTextBoxColumn.DataPropertyName = "FileName";
             fileNameDataGridViewTextBoxColumn.HeaderText = "FileName";
             fileNameDataGridViewTextBoxColumn.Name = "fileNameDataGridViewTextBoxColumn";
-            fileNameDataGridViewTextBoxColumn.ReadOnly = true;
             fileNameDataGridViewTextBoxColumn.Width = 450;
             // 
             // sizeInFolder1DataGridViewTextBoxColumn
@@ -125,7 +123,6 @@
             sizeInFolder1DataGridViewTextBoxColumn.DataPropertyName = "SizeInFolder1";
             sizeInFolder1DataGridViewTextBoxColumn.HeaderText = "SizeInFolder1";
             sizeInFolder1DataGridViewTextBoxColumn.Name = "sizeInFolder1DataGridViewTextBoxColumn";
-            sizeInFolder1DataGridViewTextBoxColumn.ReadOnly = true;
             sizeInFolder1DataGridViewTextBoxColumn.Visible = false;
             // 
             // sizeInFolder2DataGridViewTextBoxColumn
@@ -133,7 +130,6 @@
             sizeInFolder2DataGridViewTextBoxColumn.DataPropertyName = "SizeInFolder2";
             sizeInFolder2DataGridViewTextBoxColumn.HeaderText = "SizeInFolder2";
             sizeInFolder2DataGridViewTextBoxColumn.Name = "sizeInFolder2DataGridViewTextBoxColumn";
-            sizeInFolder2DataGridViewTextBoxColumn.ReadOnly = true;
             sizeInFolder2DataGridViewTextBoxColumn.Visible = false;
             // 
             // versionInFolder1DataGridViewTextBoxColumn
@@ -141,21 +137,18 @@
             versionInFolder1DataGridViewTextBoxColumn.DataPropertyName = "VersionInFolder1";
             versionInFolder1DataGridViewTextBoxColumn.HeaderText = "VersionInFolder1";
             versionInFolder1DataGridViewTextBoxColumn.Name = "versionInFolder1DataGridViewTextBoxColumn";
-            versionInFolder1DataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // versionInFolder2DataGridViewTextBoxColumn
             // 
             versionInFolder2DataGridViewTextBoxColumn.DataPropertyName = "VersionInFolder2";
             versionInFolder2DataGridViewTextBoxColumn.HeaderText = "VersionInFolder2";
             versionInFolder2DataGridViewTextBoxColumn.Name = "versionInFolder2DataGridViewTextBoxColumn";
-            versionInFolder2DataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // lastWrite1DataGridViewTextBoxColumn
             // 
             lastWrite1DataGridViewTextBoxColumn.DataPropertyName = "LastWrite1";
             lastWrite1DataGridViewTextBoxColumn.HeaderText = "LastWrite1";
             lastWrite1DataGridViewTextBoxColumn.Name = "lastWrite1DataGridViewTextBoxColumn";
-            lastWrite1DataGridViewTextBoxColumn.ReadOnly = true;
             lastWrite1DataGridViewTextBoxColumn.Visible = false;
             // 
             // lastWrite2DataGridViewTextBoxColumn
@@ -163,7 +156,6 @@
             lastWrite2DataGridViewTextBoxColumn.DataPropertyName = "LastWrite2";
             lastWrite2DataGridViewTextBoxColumn.HeaderText = "LastWrite2";
             lastWrite2DataGridViewTextBoxColumn.Name = "lastWrite2DataGridViewTextBoxColumn";
-            lastWrite2DataGridViewTextBoxColumn.ReadOnly = true;
             lastWrite2DataGridViewTextBoxColumn.Visible = false;
             // 
             // sizeDifferenceDataGridViewCheckBoxColumn
@@ -171,7 +163,6 @@
             sizeDifferenceDataGridViewCheckBoxColumn.DataPropertyName = "SizeDifference";
             sizeDifferenceDataGridViewCheckBoxColumn.HeaderText = "SizeDifference";
             sizeDifferenceDataGridViewCheckBoxColumn.Name = "sizeDifferenceDataGridViewCheckBoxColumn";
-            sizeDifferenceDataGridViewCheckBoxColumn.ReadOnly = true;
             sizeDifferenceDataGridViewCheckBoxColumn.Visible = false;
             // 
             // versionDifferentDataGridViewCheckBoxColumn
@@ -179,7 +170,6 @@
             versionDifferentDataGridViewCheckBoxColumn.DataPropertyName = "VersionDifferent";
             versionDifferentDataGridViewCheckBoxColumn.HeaderText = "VersionDifferent";
             versionDifferentDataGridViewCheckBoxColumn.Name = "versionDifferentDataGridViewCheckBoxColumn";
-            versionDifferentDataGridViewCheckBoxColumn.ReadOnly = true;
             versionDifferentDataGridViewCheckBoxColumn.Visible = false;
             // 
             // lastWriteDifferentDataGridViewCheckBoxColumn
@@ -187,7 +177,6 @@
             lastWriteDifferentDataGridViewCheckBoxColumn.DataPropertyName = "LastWriteDifferent";
             lastWriteDifferentDataGridViewCheckBoxColumn.HeaderText = "LastWriteDifferent";
             lastWriteDifferentDataGridViewCheckBoxColumn.Name = "lastWriteDifferentDataGridViewCheckBoxColumn";
-            lastWriteDifferentDataGridViewCheckBoxColumn.ReadOnly = true;
             lastWriteDifferentDataGridViewCheckBoxColumn.Visible = false;
             // 
             // isDifferentDataGridViewCheckBoxColumn
@@ -195,7 +184,6 @@
             isDifferentDataGridViewCheckBoxColumn.DataPropertyName = "IsDifferent";
             isDifferentDataGridViewCheckBoxColumn.HeaderText = "IsDifferent";
             isDifferentDataGridViewCheckBoxColumn.Name = "isDifferentDataGridViewCheckBoxColumn";
-            isDifferentDataGridViewCheckBoxColumn.ReadOnly = true;
             isDifferentDataGridViewCheckBoxColumn.Visible = false;
             // 
             // fileComparisonResultBindingSource

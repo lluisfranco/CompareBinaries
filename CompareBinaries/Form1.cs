@@ -6,6 +6,7 @@ namespace CompareBinaries
     {
         //C:\FalconFT\FalconAppCode\FalconConsolidations.Client\bin\Release\net8.0-windows\publish\win-x64
         //C:\FalconFT\FalconAppCode\FalconCell.Client\bin\Release\net8.0-windows\publish\win-x64
+        //C:\FalconFT\FalconAppCode\Falcon.Setup.Publisher\bin\Release\net8.0-windows\publish
         public Form1()
         {
             InitializeComponent();
